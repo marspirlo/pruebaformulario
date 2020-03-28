@@ -1,5 +1,5 @@
 <?php
-$nombre=$_POST['nombre'];
+$nombre= $_POST['textfield1'];
 
 $header = 'From: ' . $mail . " \r\n";
 $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
